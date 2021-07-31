@@ -34,15 +34,17 @@ int main()
         }
     }
 
-    int answer;
+    int answer = 0;
     for (int i = 0; i < 26; i++)
     {
         int tmp = arr1[i] - arr2[i];
         if (tmp > 0)
             answer += tmp;
-        if (tmp < 0)
+        else if (tmp < 0)
+        {
             tmp *= -1;
-        answer += tmp;
+            answer += tmp;
+        }
     }
 
     cout << answer;
