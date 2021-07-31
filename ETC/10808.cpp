@@ -1,6 +1,5 @@
 // 알파벳 개수 (배열)
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
