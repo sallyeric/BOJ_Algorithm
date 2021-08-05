@@ -1,3 +1,4 @@
+// 1. [BOJ 1926] 미로탐색
 #include <iostream>
 #include <queue>
 #include <vector>
