@@ -1,4 +1,4 @@
-// 1. [BOJ 1926] 미로탐색
+// 1. [BOJ 1926] 그림
 #include <iostream>
 #include <queue>
 #include <vector>
