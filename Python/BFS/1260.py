@@ -1,4 +1,5 @@
 # 1. [BOJ 1260] DFS와 BFS
+# 참고: https://velog.io/@uoayop/BOJ-1260-DFS%EC%99%80-BFSPython
 from collections import deque
 import sys
 
