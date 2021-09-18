@@ -1,4 +1,4 @@
-/* [# 18352] 특정 거리의 도시 찾기 */
+// [# 18352] 특정 거리의 도시 찾기
 
 #include <iostream>
 #include <vector>
