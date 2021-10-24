@@ -19,5 +19,5 @@ int main()
         else if(str[i] == 'C')
             str[i] = 'Z';
     }
-    cout << str<<'\n';
+    cout << str;
 }
