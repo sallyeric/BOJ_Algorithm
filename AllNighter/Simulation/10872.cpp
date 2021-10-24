@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int factorial(int num){
+int factorial(int num)
+{
     if(num == 1)
         return 1;
     
