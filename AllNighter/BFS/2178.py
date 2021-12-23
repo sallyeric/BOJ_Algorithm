@@ -22,7 +22,7 @@ check[0][0] = 1
 
 while queue:
     x, y = queue.pop()
-    # print(x, y)
+    print(x, y)
     for i in range(4):
         nx, ny = x + dx[i], y + dy[i]
         # print(nx, ny)
@@ -30,5 +30,6 @@ while queue:
             # print("i: ",i)
             check[nx][ny] = check[x][y] + 1
             queue.append((nx, ny))
+    print(check)    
 
 print(check[-1][-1])
