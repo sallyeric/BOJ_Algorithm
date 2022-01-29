@@ -14,8 +14,6 @@ int main(){
     for(int i = 0; i < str.length(); i++){
         if(str[i] - '0' == 6 || str[i] - '0' == 9){
             visited[6]++;
-            // if(visited[6]%2 == 0) visited[6] = visited[6]/2;
-            // else visited[6] = visited[6]/2 + 1;
         }
         else visited[str[i] - '0']++;
 
